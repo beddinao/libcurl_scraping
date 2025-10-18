@@ -27,7 +27,7 @@ std::string	get_response(CURL *curl, std::string url) {
 	//curl_easy_cleanup(curl);
 	return	res;
 }
-/*
+
 std::string	clean_up_stuff(std::string input, std::string garbage, std::string target) {
 	if (input.empty()||garbage.empty()||garbage.size() != target.size())	return "";
 	size_t				pos;
@@ -59,7 +59,7 @@ std::vector<std::string>		generate_random_string(int num) {
 		results.push_back(_generate_random_string("som", 5));
 	return		results;
 }
-*/
+
 
 int	main(int c, char **v) {
 
